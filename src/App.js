@@ -1,5 +1,11 @@
+import { Canvas } from "@react-three/fiber";
+
 function App() {
-  return <div></div>;
+  return (
+    <div id="canvas-container">
+      <Canvas />
+    </div>
+  );
 }
 
 export default App;
